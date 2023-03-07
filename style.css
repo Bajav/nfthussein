@@ -1,0 +1,96 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.container1{
+display: flex;
+justify-content: center;
+max-width: 100px auto;
+margin: 100px;
+background: hsl(217, 54%, 11%);
+height: 100vh;
+}
+.container2{
+border-radius: 39px;
+margin-top: 500px;
+background: hsl(216, 50%, 16%);
+padding: 40px;
+color: hsl(0, 0%, 100%);
+line-height: 50px;
+height: 47vh;
+width: auto;
+}
+.container2 .img{
+    margin-left: 30px;
+}
+.text{
+    font-weight: 0px;
+    letter-spacing: 3px;
+    margin-left: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head-text{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.paragraph{
+    margin-top: 5px;
+    font-size: 33px;
+    opacity: 40%;
+}
+.creat{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.creat img{
+    width: 90px;
+    border: 1px solid white;
+    border-radius: 70px;
+}
+.sect{
+    display: flex;
+}
+.sect h1{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.sect h2{
+    margin-left: 10px;
+    font-size: 40px;
+    opacity: 40%;
+}
+.times{
+    margin-bottom: 30px;
+display: flex;
+justify-content: space-between;
+}
+.times h1{
+    color:hsl(178, 100%, 50%);
+}
+.times h3{
+    font-size: 40px;
+    color: hsl(215, 51%, 70%);
+}
+.attribution{
+    margin-top: 40px;
+    font-weight: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.attribution a{
+    font-weight: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (min-width: 480px) {
+    .container2 {
+      min-height: 40vh;
+    }
+  }
